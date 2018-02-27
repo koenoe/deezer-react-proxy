@@ -1,0 +1,36 @@
+{
+  "name": "deezer-react-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "DEBUG=express:* nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koenoe/deezer-react-proxy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koenoe/deezer-react-proxy/issues"
+  },
+  "homepage": "https://github.com/koenoe/deezer-react-proxy#readme",
+  "dependencies": {
+    "cors": "2.8.4",
+    "dotenv": "5.0.1",
+    "eslint": "4.18.1",
+    "express": "4.16.2",
+    "express-http-proxy": "1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.15.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*"
+    ]
+  }
+}
