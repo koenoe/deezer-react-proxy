@@ -20,13 +20,12 @@
   "homepage": "https://github.com/koenoe/deezer-react-proxy#readme",
   "dependencies": {
     "cors": "2.8.4",
-    "dotenv": "5.0.1",
-    "eslint": "4.18.1",
     "express": "4.16.2",
     "express-http-proxy": "1.1.0"
   },
   "devDependencies": {
-    "nodemon": "1.15.1"
+    "nodemon": "1.15.1",
+    "eslint": "4.18.1"
   },
   "nodemonConfig": {
     "ignore": [
